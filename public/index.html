@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Give | Lost Valley Education Center</title>
+    <meta name="description" content="Donate to Lost Valley Education Center to power education, land stewardship, equitable access, food security, community governance, and regenerative enterprise." />
+    <link rel="stylesheet" href="../dist/app.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  </head>
+  <body class="bg-cream-50 text-gray-900 antialiased">
+    <!-- Sticky donate on scroll -->
+    <div id="stickyDonate" class="hidden md:block fixed right-4 bottom-4 z-50">
+      <a href="#donate" class="rounded-full bg-forest-700 text-white px-5 py-3 shadow-lg hover:bg-forest-600 transition focus:outline-none focus-visible:ring-4 focus-visible:ring-forest-300">Donate</a>
+    </div>
+
+    <!-- Hero -->
+    <header class="relative overflow-hidden min-h-[90vh] bg-bark-700">
+      <div class="container relative z-10 min-h-[90vh] flex flex-col justify-center py-16 sm:py-24">
+        <h1 class="font-display font-black tracking-[-0.02em] leading-[0.8] text-[min(24vw,75vh)] w-full">
+          <span class="mask-text bg-center" style="background-image: url('./images/hero-give-big.jpg'); background-size: 100% 100%;">GIVE BIG</span>
+        </h1>
+        <p class="mt-2 text-cream-50 text-xl md:text-2xl">to Lost Valley</p>
+        <p class="mt-6 max-w-xl text-lg text-cream-50/90">
+          In a time of political and climate uncertainty, help us model resilient, regenerative ways of living—together.
+        </p>
+        <p class="mt-3 max-w-2xl text-base text-cream-50/80">
+          Lost Valley is a living campus and community in Oregon stewarding 87 acres, teaching practical skills, and proving that another way is not only possible—it’s happening.
+        </p>
+        <div class="mt-8 flex items-center gap-4">
+          <a href="#donate" class="inline-flex items-center justify-center rounded-md bg-forest-700 px-6 py-3 text-white font-semibold shadow-sm hover:bg-forest-600 focus:outline-none focus-visible:ring-4 focus-visible:ring-forest-300">Donate now</a>
+          <a href="#learn" class="inline-flex items-center gap-2 text-cream-50 font-semibold hover:underline">
+            Learn more
+            <span aria-hidden>↓</span>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Why now -->
+    <section id="learn" class="border-y border-gray-200 bg-white">
+      <div class="container py-14 sm:py-20">
+        <h2 class="sr-only">Why now</h2>
+        <p class="text-lg font-semibold text-bark-700">Uncertainty is real; so is our response.</p>
+        <div class="mt-4 space-y-4 text-gray-700 max-w-3xl">
+          <p>We’ve spent 36 years practicing a different way of living—one rooted in ecological care, shared governance, and practical skills. In moments like this, models matter.</p>
+          <p>When people ask, “What should we do?” we open the gate, roll up our sleeves, and show them. Your gift keeps this working model alive, accessible, and growing.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Impact (vertical list) -->
+    <section class="bg-white">
+      <div class="container py-16 sm:py-24">
+        <h2 class="text-2xl sm:text-3xl font-bold text-bark-700">Your impact</h2>
+        <div class="mt-8 space-y-6" id="impactList" aria-label="Impact sections">
+          <article class="rounded-xl border border-gray-200 overflow-hidden bg-white shadow-sm">
+            <img src="https://images.unsplash.com/photo-1523599033580-cd5e82d6428c?q=80&w=1200&auto=format&fit=crop" alt="Instructor and students learning soil health techniques in the Lost Valley garden." class="h-56 w-full object-cover" />
+            <div class="p-5">
+              <h3 class="text-xl font-semibold text-bark-700">Education</h3>
+              <p class="mt-2 text-gray-600">A living classroom where knowledge cross‑pollinates.</p>
+              <p class="mt-3 text-gray-700">Our campus hosts educators, interns, students, and guests who learn-by-doing: soil, water, energy, governance, conflict transformation, and more.</p>
+            </div>
+          </article>
+          <article class="rounded-xl border border-gray-200 overflow-hidden bg-white shadow-sm">
+            <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=1200&auto=format&fit=crop" alt="Native understory restoration in progress at Lost Valley." class="h-56 w-full object-cover" />
+            <div class="p-5">
+              <h3 class="text-xl font-semibold text-bark-700">Regenerative land stewardship</h3>
+              <p class="mt-2 text-gray-600">87 acres guided by a 10‑year plan—forest, water, soil, and habitat.</p>
+              <p class="mt-3 text-gray-700">Restoring native ecosystems, increasing fire resilience, and building healthy soil through careful thinning, invasive removal, and native plantings.</p>
+            </div>
+          </article>
+          <article class="rounded-xl border border-gray-200 overflow-hidden bg-white shadow-sm">
+            <img src="https://images.unsplash.com/photo-1498654077810-12f23f957bcb?q=80&w=1200&auto=format&fit=crop" alt="Community meal at Lost Valley with residents and students." class="h-56 w-full object-cover" />
+            <div class="p-5">
+              <h3 class="text-xl font-semibold text-bark-700">Equitable access</h3>
+              <p class="mt-2 text-gray-600">Affordability widens the circle.</p>
+              <p class="mt-3 text-gray-700">Sliding scale, scholarships, and low-cost options—because resilience needs many voices.</p>
+            </div>
+          </article>
+          <article class="rounded-xl border border-gray-200 overflow-hidden bg-white shadow-sm">
+            <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?q=80&w=1200&auto=format&fit=crop" alt="Seasonal harvest from Lost Valley’s regenerative gardens." class="h-56 w-full object-cover" />
+            <div class="p-5">
+              <h3 class="text-xl font-semibold text-bark-700">Farming and food security</h3>
+              <p class="mt-2 text-gray-600">Organic, regenerative gardens feeding people.</p>
+              <p class="mt-3 text-gray-700">Seeds, tools, irrigation, and preservation support regional resilience.</p>
+            </div>
+          </article>
+          <article class="rounded-xl border border-gray-200 overflow-hidden bg-white shadow-sm">
+            <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=1200&auto=format&fit=crop" alt="Regional organizers collaborating during a workshop at Lost Valley." class="h-56 w-full object-cover" />
+            <div class="p-5">
+              <h3 class="text-xl font-semibold text-bark-700">Activating networks</h3>
+              <p class="mt-2 text-gray-600">Cascadia connections that accelerate learning and mutual aid.</p>
+              <p class="mt-3 text-gray-700">Convenings and shared projects make all of us more effective.</p>
+            </div>
+          </article>
+          <article class="rounded-xl border border-gray-200 overflow-hidden bg-white shadow-sm">
+            <img src="https://images.unsplash.com/photo-1543269664-76bc3997d9ea?q=80&w=1200&auto=format&fit=crop" alt="Residents in a facilitated circle practicing consensus at Lost Valley." class="h-56 w-full object-cover" />
+            <div class="p-5">
+              <h3 class="text-xl font-semibold text-bark-700">Community & governance</h3>
+              <p class="mt-2 text-gray-600">36 years of practicing non‑hierarchical self‑governance.</p>
+              <p class="mt-3 text-gray-700">Tours, events, and programs share a living model for sharing power and place.</p>
+            </div>
+          </article>
+          <article class="rounded-xl border border-gray-200 overflow-hidden bg-white shadow-sm">
+            <img src="https://images.unsplash.com/photo-1562095241-8c6714fd4178?q=80&w=1200&auto=format&fit=crop" alt="Resident entrepreneur caring for native plant starts at Lost Valley." class="h-56 w-full object-cover" />
+            <div class="p-5">
+              <h3 class="text-xl font-semibold text-bark-700">Regenerative business</h3>
+              <p class="mt-2 text-gray-600">Place-based enterprises that serve land and community.</p>
+              <p class="mt-3 text-gray-700">Mentorship and shared infrastructure grow local livelihoods.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- By the numbers -->
+    <section class="bg-cream-100 border-y border-gray-200">
+      <div class="container py-12">
+        <h2 class="sr-only">By the numbers</h2>
+        <ul class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 text-center">
+          <li class="p-6 rounded bg-white shadow-sm">
+            <p class="text-3xl font-bold text-bark-700">36</p>
+            <p class="text-gray-600">years stewarding 87 acres</p>
+          </li>
+          <li class="p-6 rounded bg-white shadow-sm">
+            <p class="text-3xl font-bold text-bark-700">[X]+</p>
+            <p class="text-gray-600">learners hosted annually</p>
+          </li>
+          <li class="p-6 rounded bg-white shadow-sm">
+            <p class="text-3xl font-bold text-bark-700">[Y]</p>
+            <p class="text-gray-600">pounds of food grown last season</p>
+          </li>
+          <li class="p-6 rounded bg-white shadow-sm">
+            <p class="text-3xl font-bold text-bark-700">[Z]</p>
+            <p class="text-gray-600">native plants established</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Ways to give + Donation module -->
+    <section id="donate" class="bg-white">
+      <div class="container py-16 sm:py-24">
+        <div class="grid lg:grid-cols-2 gap-12 items-start">
+          <div>
+            <h2 class="text-2xl sm:text-3xl font-bold text-bark-700">Ways to give</h2>
+            <ul class="mt-6 space-y-3 text-gray-700">
+              <li>One-time gifts</li>
+              <li><span class="font-semibold">Monthly giving (recommended)</span>: Join the Mycelial Circle—monthly supporters who keep the roots fed and the canopy growing.</li>
+              <li>Sponsor a program: Scholarships, land stewardship, or farm.</li>
+              <li>Employer matching: Double your impact (we’ll help with forms).</li>
+              <li>DAFs, stock, ACH/wire: Contact us for simple instructions.</li>
+              <li>In-kind and volunteer: Tools, materials, skilled labor welcome.</li>
+            </ul>
+            <div class="mt-6 grid grid-cols-2 sm:grid-cols-3 gap-3 text-sm">
+              <div class="p-4 rounded border border-gray-200"><span class="font-semibold">$15</span> — Native seeds</div>
+              <div class="p-4 rounded border border-gray-200"><span class="font-semibold">$25</span> — Soil + tools</div>
+              <div class="p-4 rounded border border-gray-200"><span class="font-semibold">$50</span> — Workshop supplies</div>
+              <div class="p-4 rounded border border-gray-200"><span class="font-semibold">$100</span> — Day of apprentice support</div>
+              <div class="p-4 rounded border border-gray-200"><span class="font-semibold">$250</span> — Fruit/nut tree + care</div>
+              <div class="p-4 rounded border border-gray-200"><span class="font-semibold">$500</span> — Partial scholarship</div>
+              <div class="p-4 rounded border border-gray-200"><span class="font-semibold">$1,000</span> — Month housing/materials</div>
+              <div class="p-4 rounded border border-gray-200"><span class="font-semibold">$2,500</span> — Infra upgrades</div>
+              <div class="p-4 rounded border border-gray-200"><span class="font-semibold">$5,000</span> — Sponsor a project</div>
+            </div>
+          </div>
+
+          <!-- Donation widget (static placeholder) -->
+          <form class="rounded-xl border border-gray-200 p-6 shadow-sm" aria-labelledby="giveHeader">
+            <div class="mb-4">
+              <h3 id="giveHeader" class="text-xl font-bold text-bark-700">Power the work. Give today.</h3>
+              <p class="text-gray-600">Prefer monthly? It’s the most effective way to support resilience year‑round.</p>
+            </div>
+            <fieldset class="grid grid-cols-2 gap-3" role="radiogroup" aria-label="Gift cadence">
+              <label class="flex items-center gap-2 rounded border border-gray-300 p-3 cursor-pointer">
+                <input type="radio" name="cadence" value="once" />
+                <span>One-time</span>
+              </label>
+              <label class="flex items-center gap-2 rounded border border-gray-300 p-3 cursor-pointer bg-cream-100">
+                <input type="radio" name="cadence" value="monthly" checked />
+                <span>Monthly</span>
+              </label>
+            </fieldset>
+            <div class="mt-4 grid grid-cols-3 gap-3">
+              <button type="button" class="amount-btn rounded border border-gray-300 py-2">$25</button>
+              <button type="button" class="amount-btn rounded border border-gray-300 py-2">$50</button>
+              <button type="button" class="amount-btn rounded border border-gray-300 py-2">$100</button>
+              <button type="button" class="amount-btn rounded border border-gray-300 py-2">$250</button>
+              <button type="button" class="amount-btn rounded border border-gray-300 py-2">$500</button>
+              <button type="button" class="amount-btn rounded border border-gray-300 py-2">$1000</button>
+            </div>
+            <label class="mt-4 block">
+              <span class="text-sm text-gray-700">Other amount</span>
+              <input id="otherAmount" type="number" min="1" step="1" class="mt-1 w-full rounded border border-gray-300 px-3 py-2" placeholder="USD" />
+            </label>
+            <button type="submit" class="mt-6 w-full rounded-md bg-forest-700 py-3 text-white font-semibold hover:bg-forest-600 focus:outline-none focus-visible:ring-4 focus-visible:ring-forest-300">Donate securely</button>
+            <p class="mt-3 text-xs text-gray-600">Secure processing via [Provider]. Tax‑deductible in the U.S.; Lost Valley Education Center is a 501(c)(3). EIN: [EIN].</p>
+            <p class="mt-1 text-xs text-gray-600">
+              Matching: See if your employer will match this gift. Optional dedication: Give in honor or memory of someone.
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Final CTA band -->
+    <section class="bg-forest-700 text-white">
+      <div class="container py-14 sm:py-20">
+        <div class="grid gap-6 sm:gap-8 sm:grid-cols-[1fr_auto] sm:items-center">
+          <div>
+            <h2 class="text-2xl sm:text-3xl font-bold">Help us keep the gate open.</h2>
+            <p class="mt-2 text-white/90">Your gift sustains a living, open model for resilient community life—right when it’s needed most.</p>
+            <p class="mt-2 text-sm text-white/80">501(c)(3) since 1989 • 87 acres stewarded • Annual report • 10‑year land stewardship plan</p>
+          </div>
+          <a href="#donate" class="inline-flex items-center justify-center rounded-md bg-cream-50 text-bark-700 px-6 py-3 font-semibold shadow-sm hover:bg-white focus:outline-none focus-visible:ring-4 focus-visible:ring-white/40">Donate now</a>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      // Sticky donate visibility
+      const sticky = document.getElementById('stickyDonate');
+      let lastY = 0;
+      window.addEventListener('scroll', () => {
+        const y = window.scrollY || document.documentElement.scrollTop;
+        if (y > 300 && y > lastY) {
+          sticky.classList.remove('hidden');
+        } else if (y < 200) {
+          sticky.classList.add('hidden');
+        }
+        lastY = y;
+      });
+
+      // Amount buttons -> Other amount
+      document.querySelectorAll('.amount-btn').forEach((btn) => {
+        btn.addEventListener('click', () => {
+          const val = btn.textContent.replace(/[^0-9]/g, '');
+          const input = document.getElementById('otherAmount');
+          input.value = val;
+          input.focus();
+        });
+      });
+    </script>
+  </body>
+  </html>
+
+
