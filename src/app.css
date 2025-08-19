@@ -72,6 +72,22 @@
   }
 }
 
+/* Opinionated defaults for plain HTML content */
+@layer base {
+  h1, h2, h3 {
+    font-family: var(--font-display);
+    color: var(--color-bark-700);
+    font-weight: 700;
+  }
+  h1 { font-size: var(--text-4xl); line-height: 1.1; margin-block: 1rem; }
+  h2 { font-size: var(--text-3xl); line-height: 1.2; margin-block: 1rem; }
+  h3 { font-size: var(--text-2xl); line-height: 1.25; margin-block: 0.75rem; }
+
+  p { margin-block: 0.75rem; }
+  ul, ol { padding-left: 1.25rem; margin-block: 0.75rem; }
+  a { color: var(--color-forest-700); text-decoration: underline; }
+}
+
 /* Scroll track helpers */
 @utility no-scrollbar {
   -ms-overflow-style: none; /* IE/Edge */
